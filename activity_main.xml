@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="me.theofrancisco.happybirthday.MainActivity">
+
+    <ImageView
+        android:id="@+id/image"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:scaleType="centerCrop"
+        android:src="@drawable/samurai_full" />
+
+    <TextView
+        android:id="@+id/textUpShadow"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Happy Birthday Gaby!"
+        android:textSize="37sp"
+        android:textAlignment="center"
+        android:textColor="#C6FF00"
+        />
+
+    <TextView
+        android:id="@+id/textUp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Happy Birthday Gaby!"
+        android:textSize="36sp"
+        android:textAlignment="center"
+        android:textColor="#0D47A1"
+        />
+
+    <TextView
+        android:id="@+id/textMsg"
+        android:layout_width="140dp"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/textView"
+        android:layout_marginBottom="168dp"
+        android:layout_alignParentRight="true"
+        android:gravity="center_horizontal"
+        android:text="You can always die. it's living that takes real courage. Himura Kenshin"
+        android:textColor="#1B5E20"
+        android:textSize="16sp"
+        android:textStyle="italic" />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:text="Dedo, Pa."
+        android:textColor="#0D47A1"
+        android:layout_alignParentRight ="true"
+        android:layout_alignParentBottom="true"
+        android:padding = "20dp"
+        android:id="@+id/textView" />
+
+</RelativeLayout>
